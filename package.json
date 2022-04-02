@@ -1,0 +1,32 @@
+{
+	"name": "convert-list-to-json-format",
+	"version": "1.0.0",
+	"description": "This CLI formats a long list into a JSON format.",
+	"main": "src/index.js",
+	"bin": "src/index.js",
+	"scripts": {
+		"compile": "npx tsc",
+		"run:javascript": "node src/index.js",
+		"run:typescript": "npx ts-node src/index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Harry-Hopkinson/convert-list-to-json-format.git"
+	},
+	"keywords": [
+		"cli",
+		"command-line",
+		"generator",
+		"json",
+		"list"
+	],
+	"author": "harry-hopkinson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Harry-Hopkinson/convert-list-to-json-format/issues"
+	},
+	"homepage": "https://github.com/Harry-Hopkinson/convert-list-to-json-format#readme",
+	"dependencies": {
+		"typescript": "^4.6.3"
+	}
+}
